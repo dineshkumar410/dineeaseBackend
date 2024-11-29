@@ -16,7 +16,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"name\": \"dinesh\",\n    \"email\": \"dinesh@gmail.com\",\n    \"password\": \"1234567\"\n}",
+							"raw": "{\n    \"name\": \"Suresh\",\n    \"email\": \"suresh@gmail.com\",\n    \"password\": \"1234567\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -24,11 +24,13 @@
 							}
 						},
 						"url": {
-							"raw": "localhost:3000/api/users/register",
+							"raw": "https://dineease-91l7.onrender.com/api/users/register",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"dineease-91l7",
+								"onrender",
+								"com"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"users",
@@ -64,7 +66,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"email\": \"dinesh@gmail.com\",\n    \"password\": \"1234567\"\n}",
+							"raw": "{\n    \"email\": \"suresh@gmail.com\",\n    \"password\": \"1234567\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -72,11 +74,13 @@
 							}
 						},
 						"url": {
-							"raw": "localhost:3000/api/users/login",
+							"raw": "https://dineease-91l7.onrender.com/api/users/login",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"dineease-91l7",
+								"onrender",
+								"com"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"users",
@@ -114,11 +118,13 @@
 							}
 						},
 						"url": {
-							"raw": "localhost:3000/api/users/profile",
+							"raw": "https://dineease-91l7.onrender.com/api/users/profile",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"dineease-91l7",
+								"onrender",
+								"com"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"users",
@@ -145,7 +151,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"name\": \"Dinesh Kumar\"\n}",
+							"raw": "{\n    \"name\": \"Suresh PS\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -153,11 +159,13 @@
 							}
 						},
 						"url": {
-							"raw": "localhost:3000/api/users/profile",
+							"raw": "https://dineease-91l7.onrender.com/api/users/profile",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"dineease-91l7",
+								"onrender",
+								"com"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"users",
@@ -172,36 +180,6 @@
 		{
 			"name": "Admin",
 			"item": [
-				{
-					"name": "Get Dashboard of admin",
-					"request": {
-						"auth": {
-							"type": "bearer",
-							"bearer": [
-								{
-									"key": "token",
-									"value": "{{jwt}}",
-									"type": "string"
-								}
-							]
-						},
-						"method": "GET",
-						"header": [],
-						"url": {
-							"raw": "localhost:3000/api/admin/dashboard",
-							"host": [
-								"localhost"
-							],
-							"port": "3000",
-							"path": [
-								"api",
-								"admin",
-								"dashboard"
-							]
-						}
-					},
-					"response": []
-				},
 				{
 					"name": "Update restaurant details",
 					"request": {
@@ -227,11 +205,13 @@
 							}
 						},
 						"url": {
-							"raw": "localhost:3000/api/admin/restaurants/6741f61390f110fa3c360d77",
+							"raw": "https://dineease-91l7.onrender.com/api/admin/restaurants/6741f61390f110fa3c360d77",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"dineease-91l7",
+								"onrender",
+								"com"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"admin",
@@ -258,11 +238,13 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "localhost:3000/api/reviews/6741fe4e92ed8b3844d40f5a",
+							"raw": "https://dineease-91l7.onrender.com/api/reviews/6741fe4e92ed8b3844d40f5a",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"dineease-91l7",
+								"onrender",
+								"com"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"reviews",
@@ -288,11 +270,13 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "localhost:3000/api/reservations/6741ffb592ed8b3844d40f8c",
+							"raw": "https://dineease-91l7.onrender.com/api/reservations/6741ffb592ed8b3844d40f8c",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"dineease-91l7",
+								"onrender",
+								"com"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"reservations",
@@ -332,11 +316,13 @@
 							}
 						},
 						"url": {
-							"raw": "localhost:3000/api/restaurants/",
+							"raw": "https://dineease-91l7.onrender.com/api/restaurants/",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"dineease-91l7",
+								"onrender",
+								"com"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"restaurants",
@@ -352,11 +338,13 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "localhost:3000/api/restaurants/",
+							"raw": "https://dineease-91l7.onrender.com/api/restaurants/",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"dineease-91l7",
+								"onrender",
+								"com"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"restaurants",
@@ -372,15 +360,17 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "localhost:3000/api/restaurants/6741f433a0078f252238c1b6",
+							"raw": "https://dineease-91l7.onrender.com/api/restaurants/674902c056282a0d847063af",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"dineease-91l7",
+								"onrender",
+								"com"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"restaurants",
-								"6741f433a0078f252238c1b6"
+								"674902c056282a0d847063af"
 							]
 						}
 					},
@@ -411,15 +401,17 @@
 							}
 						},
 						"url": {
-							"raw": "localhost:3000/api/restaurants/6741f433a0078f252238c1b6",
+							"raw": "https://dineease-91l7.onrender.com/api/restaurants/674902c056282a0d847063af",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"dineease-91l7",
+								"onrender",
+								"com"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"restaurants",
-								"6741f433a0078f252238c1b6"
+								"674902c056282a0d847063af"
 							]
 						}
 					},
@@ -450,11 +442,13 @@
 							}
 						},
 						"url": {
-							"raw": "localhost:3000/api/restaurants/6741f61390f110fa3c360d77",
+							"raw": "https://dineease-91l7.onrender.com/api/restaurants/6741f61390f110fa3c360d77",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"dineease-91l7",
+								"onrender",
+								"com"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"restaurants",
@@ -494,11 +488,13 @@
 							}
 						},
 						"url": {
-							"raw": "localhost:3000/api/reviews/6741f61390f110fa3c360d77",
+							"raw": "https://dineease-91l7.onrender.com/api/reviews/6741f61390f110fa3c360d77",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"dineease-91l7",
+								"onrender",
+								"com"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"reviews",
@@ -529,15 +525,17 @@
 							}
 						},
 						"url": {
-							"raw": "localhost:3000/api/reviews/6741f61390f110fa3c360d77",
+							"raw": "https://dineease-91l7.onrender.com/api/restaurants/6748fa9b56282a0d847063ac",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"dineease-91l7",
+								"onrender",
+								"com"
 							],
-							"port": "3000",
 							"path": [
 								"api",
-								"reviews",
-								"6741f61390f110fa3c360d77"
+								"restaurants",
+								"6748fa9b56282a0d847063ac"
 							]
 						}
 					},
@@ -568,11 +566,13 @@
 							}
 						},
 						"url": {
-							"raw": "localhost:3000/api/reviews/6741f86987ef591d08a1c67d",
+							"raw": "https://dineease-91l7.onrender.com/api/reviews/6741f86987ef591d08a1c67d",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"dineease-91l7",
+								"onrender",
+								"com"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"reviews",
@@ -607,11 +607,13 @@
 							}
 						},
 						"url": {
-							"raw": "localhost:3000/api/reviews/6741f9cf368cc39e832042c0",
+							"raw": "https://dineease-91l7.onrender.com/api/reviews/6741f9cf368cc39e832042c0",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"dineease-91l7",
+								"onrender",
+								"com"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"reviews",
@@ -651,11 +653,13 @@
 							}
 						},
 						"url": {
-							"raw": "localhost:3000/api/reservations/",
+							"raw": "https://dineease-91l7.onrender.com/api/reservations/",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"dineease-91l7",
+								"onrender",
+								"com"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"reservations",
@@ -681,11 +685,13 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "localhost:3000/api/reservations/user",
+							"raw": "https://dineease-91l7.onrender.com/api/reservations/user",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"dineease-91l7",
+								"onrender",
+								"com"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"reservations",
@@ -720,11 +726,13 @@
 							}
 						},
 						"url": {
-							"raw": "localhost:3000/api/reservations/6741fb14368cc39e832042d4",
+							"raw": "https://dineease-91l7.onrender.com/api/reservations/6741fb14368cc39e832042d4",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"dineease-91l7",
+								"onrender",
+								"com"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"reservations",
@@ -759,11 +767,13 @@
 							}
 						},
 						"url": {
-							"raw": "localhost:3000/api/reservations/6741fb14368cc39e832042d4",
+							"raw": "https://dineease-91l7.onrender.com/api/reservations/6741fb14368cc39e832042d4",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"dineease-91l7",
+								"onrender",
+								"com"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"reservations",
@@ -784,11 +794,13 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "localhost:3000/api/search?priceRange=$$$",
+							"raw": "https://dineease-91l7.onrender.com/api/search?priceRange=$$$",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"dineease-91l7",
+								"onrender",
+								"com"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"search"
